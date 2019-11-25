@@ -13,7 +13,7 @@ end;
 procedure TestDaysInMonth();
 begin
 	assert(DaysInMonth(1, 1999) = 31, 'TestDaysInMonth fails on Janyary 1999');
-	assert(DaysInMonth(2, 2004) = 28, 'TestDaysInMonth fails on February 2004');
+	assert(DaysInMonth(2, 2004) = 29, 'TestDaysInMonth fails on February 2004');
 	assert(DaysInMonth(4, 2019) = 30, 'TestDaysInMonth fails on February 2004');
 	assert(DaysInMonth(5, 1967) = 31, 'TestDaysInMonth fails on February 2004');
 end;
@@ -65,5 +65,6 @@ begin
 end;
 
 begin
-	TestIsLeapYear
+	TestIsLeapYear;
+	TestDaysInMonth
 end.
