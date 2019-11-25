@@ -66,5 +66,6 @@ end;
 
 begin
 	TestIsLeapYear;
-	TestDaysInMonth
+	TestDaysInMonth;
+	TestLaterInDay
 end.
